@@ -1,4 +1,4 @@
-/*1 вариант*/
+/*1 вариант
 *{
     font-family: Areal;
 }
@@ -27,10 +27,10 @@
     background-color: #c5c5c5;
     border-radius:5px;
     box-shadow: 0px 0px 10px #000;
-}
+}*/
 
 
-/*способ 2 вариант с изменениями
+/*способ 2 вариант с изменениями*/
 *{
     font-family: Areal;
 }
@@ -60,4 +60,4 @@
     border-radius:5px;
     box-shadow: 0px 0px 10px #000;
 }
-*/
+
