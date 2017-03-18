@@ -575,36 +575,21 @@
 		</div>
 	</footer>
 	<script>
-	//Всплывающее окно мой вариант
-		$('#htmlcss').click(function(){
-			$('body').append("<div id='htmlcss'></div>");
-			return false;
-		});
-		$('a.close').click(function(){
-			$('this').parent().fadeOut(100);
-			$('#htmlcss').remove('#htmlcss');
-			return false;
-		});
-		//Test sscript
-		var imageFile = $('a').attr('href');
-		document.write(imageFile);
-	</script>
-	<!--script type="text/javascript">
-	//Скрипт для всплывающего окна с иформацией о курсе
-		$(function () {
-			//script for popups
-			$('a.show_popup').click(function () {
-				$('div.'+$(this).attr("rel")).fadeIn(500);
-				$("body").append("<div id='overlay'></div>");
-				$('#overlay').show().css({'filter' : 'alpha(opacity=80)'});
-				return false;				
-			});	
-			$('a.close').click(function () {
-				$(this).parent().fadeOut(100);
-				$('#overlay').remove('#overlay');
+		//Всплывающее окно мой вариант
+		/*$(document).ready(function(){
+			$('a').click(function(){
+				$('td').append("#htmlcss");
 				return false;
 			});
-		});
-	</script-->
+			$('a.close').click(function(){
+				$(this).parent().fadeOut(100);
+				$('#htmlcss').remove('#htmlcss');
+				return false;
+			});
+			//Test script
+			var imageFile = $('a').attr('href');
+			document.write(imageFile);
+		});*/
+	</script>
 </body>
 </html>
